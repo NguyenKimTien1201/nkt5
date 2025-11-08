@@ -1,1 +1,124 @@
-# nkt5
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Colors</title>
+  <style>
+    body {
+      background-color: #dedede;
+    }
+
+    h1 {
+      text-align: center;
+      font-family: Arial, sans-serif;
+      font-size: 32px;
+    }
+
+    a {
+      color: #000;
+      text-decoration: none;
+      font-family: Arial, sans-serif;
+    }
+
+    p {
+      font-size: 25px;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    div img {
+      width: 150px;
+      height: 150px;
+      display: block;
+      margin: auto;
+    }
+
+    div {
+      display: inline-block;
+      width: 24%;
+      margin: 5px;
+      padding: 2px;
+    }
+
+    /* Media Query for Tablet View */
+    @media (max-width: 772px) {
+      div {
+        width: 45%;
+      }
+
+      div img {
+        max-height: 30vh;
+        height: auto;
+      }
+    }
+
+    /* Media Query for Large Screen View */
+    @media (min-width: 998px) {
+      div {
+        width: 30%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1 id="top">Colors!</h1>
+  </header>
+
+  <main>
+    <h2>Basic Media Queries</h2>
+    <p>In this assignment you will add two media queries to the css file.</p>
+    <ul>
+      <li>The first media query should trigger at 772px and change the layout of the divs to be 45% of the viewport width. The images should have a maximum height of 30% of the viewport height.</li>
+      <li>The second media query should trigger at 998px and change the layout of the divs to be 30% of the viewport width.</li>
+    </ul>
+    <p>You will need to make additional changes to ensure that the divs appear next to each other and that the images are contained within the divs. Some of these properties include display, width and max-height.</p>
+
+    <div>
+      <img src="Red.jpeg" alt="Red">
+      <p class="label">Red</p>
+    </div>
+    <div>
+      <img src="Orange.png" alt="Orange">
+      <p class="label">Orange</p>
+    </div>
+    <div>
+      <img src="Yellow.png" alt="Yellow">
+      <p class="label">Yellow</p>
+    </div>
+    <div>
+      <img src="Green.png" alt="Green">
+      <p class="label">Green</p>
+    </div>
+    <div>
+      <img src="Blue.png" alt="Blue">
+      <p class="label">Blue</p>
+    </div>
+    <div>
+      <img src="Indigo.jpeg" alt="Indigo">
+      <p class="label">Indigo</p>
+    </div>
+    <div>
+      <img src="Purple.png" alt="Purple">
+      <p class="label">Purple</p>
+    </div>
+    <div>
+      <img src="Pink.jpeg" alt="Pink">
+      <p class="label">Pink</p>
+    </div>
+    <div>
+      <img src="White.png" alt="White">
+      <p class="label">White</p>
+    </div>
+  </main>
+
+  <footer>
+    <a href="#top">Jump to the Top</a>
+  </footer>
+</body>
+
+</html>
